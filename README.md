@@ -2,6 +2,8 @@
 
 Load a fallback image if an image errors out.
 
+[![Build Status](https://travis-ci.org/zakangelle/fallback-image.png?branch=master)](https://travis-ci.org/zakangelle/fallback-image)
+
 ## Installation
 
 ```
