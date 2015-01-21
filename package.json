@@ -13,9 +13,23 @@
     "error"
   ],
   "author": "Zak Angelle",
-  "repository": "https://github.com/zakangelle/fallback-image",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zakangelle/fallback-image"
+  },
   "license": "MIT",
   "devDependencies": {
+    "nodemock": "^0.3.4",
+    "tape": "^3.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/zakangelle/fallback-image/issues"
+  },
+  "homepage": "https://github.com/zakangelle/fallback-image",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
     "nodemock": "^0.3.4",
     "tape": "^3.4.0"
   }
