@@ -1,0 +1,17 @@
+{
+  "name": "fallback-image",
+  "version": "1.0.0",
+  "description": "Load a fallback image if an image errors out",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fallback",
+    "image",
+    "404",
+    "error"
+  ],
+  "author": "Zak Angelle",
+  "license": "MIT"
+}
