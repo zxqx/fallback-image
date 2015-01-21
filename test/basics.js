@@ -20,5 +20,5 @@ test('Fallback image works', function(t) {
   
   t.strictEquals(img.srcElement.src, 'good.jpg', 'srcElement.src gets set to fallback image');
 
-  t.strictEquals(img.onerror, null);
+  t.strictEquals(img.onerror, null, 'img.onerror gets set to null');
 });
