@@ -4,7 +4,7 @@
   "description": "Load a fallback image if an image errors out",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape ./test/**/*.js"
   },
   "keywords": [
     "fallback",
@@ -13,5 +13,9 @@
     "error"
   ],
   "author": "Zak Angelle",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemock": "^0.3.4",
+    "tape": "^3.4.0"
+  }
 }
