@@ -1,6 +1,6 @@
 # fallback-image
 
-Load a fallback images if an image errors out.
+Load a fallback image if an image errors out.
 
 ## Installation
 
