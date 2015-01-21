@@ -29,8 +29,7 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "nodemock": "^0.3.4",
-    "tape": "^3.4.0"
+  "publishConfig": {
+    "registry": "https://npmjs.com"
   }
 }
