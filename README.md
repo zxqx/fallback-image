@@ -19,4 +19,8 @@ fallbackImage(imageEl, './fallback-image.png');
 
 ## Test
 
-(Add tests)
+Tests are done with [tape](https://github.com/substack/tape) by running:
+
+```
+$ npm test
+```
