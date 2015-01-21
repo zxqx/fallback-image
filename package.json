@@ -28,8 +28,5 @@
   "homepage": "https://github.com/zakangelle/fallback-image",
   "directories": {
     "test": "test"
-  },
-  "publishConfig": {
-    "registry": "https://npmjs.com"
   }
 }
