@@ -6,7 +6,7 @@ test('Fallback image works', function(t) {
   t.plan(2);
 
   var img = {
-    srcElement: { src: 'shit.jpg' },
+    target: { src: 'shit.jpg' },
     onerror: '' 
   };
 
@@ -18,7 +18,7 @@ test('Fallback image works', function(t) {
 
   fallbackImage(imageEl, fallback);
   
-  t.strictEquals(img.srcElement.src, 'good.jpg', 'srcElement.src gets set to fallback image');
+  t.strictEquals(img.target.src, 'good.jpg', 'target.src gets set to fallback image');
 
   t.strictEquals(img.onerror, null, 'img.onerror gets set to null');
 });
