@@ -13,10 +13,10 @@ $ npm install fallback-image
 ## Usage
 
 ```js
-var fallbackImage = require('fallback-image');
+import fallbackImage from 'fallback-image';
 
-var imageEl = document.querySelector('img.horse-image');
-fallbackImage(imageEl, './fallback-image.png');
+let imageEl = document.querySelector('img.horse-image');
+fallbackImage(imageEl, './images/fallback-image.png');
 ```
 
 ## Test

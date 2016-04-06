@@ -7,7 +7,7 @@ module.exports = fallbackImage;
  */
 function fallbackImage(imageEl, fallbackImageUrl)
 {
-  imageEl.addEventListener('error', function(img) {
+  imageEl.addEventListener('error', img => {
     img.target.src = fallbackImageUrl;
     img.onerror = null;
   });
