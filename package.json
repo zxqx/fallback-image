@@ -1,6 +1,6 @@
 {
   "name": "fallback-image",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Load a fallback image if an image errors out",
   "main": "index.js",
   "scripts": {
