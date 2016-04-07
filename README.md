@@ -19,6 +19,14 @@ let imageEl = document.querySelector('img.horse-image');
 fallbackImage(imageEl, './images/fallback-image.png');
 ```
 
+## Standalone
+
+Generate a standalone build in `dist` (for use with `<script>` tags and AMD module loaders):
+
+```sh
+$ npm run build:standalone
+```
+
 ## Test
 
 Tests are done with [tape](https://github.com/substack/tape) by running:

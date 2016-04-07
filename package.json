@@ -4,11 +4,13 @@
   "description": "Load a fallback image if an image errors out",
   "main": "index.js",
   "scripts": {
-    "test": "tape ./test/**/*.js"
+    "test": "tape ./test/**/*.js",
+    "build:standalone": "mkdir -p dist && browserify index.js --standalone fallbackImage > dist/fallback-image.js"
   },
   "keywords": [
     "fallback",
     "image",
+    "placeholder",
     "404",
     "error"
   ],
