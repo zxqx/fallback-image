@@ -2,7 +2,7 @@
 
 Load a fallback image if an image errors out.
 
-[![Build Status](https://travis-ci.org/zakangelle/fallback-image.svg?branch=master)](https://travis-ci.org/zakangelle/fallback-image)
+[![Circle CI](https://circleci.com/gh/zakangelle/fallback-image/tree/master.svg?style=shield)](https://circleci.com/gh/zakangelle/fallback-image/tree/master)
 
 ## Installation
 
