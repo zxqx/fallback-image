@@ -2,7 +2,7 @@
 
 Load a fallback image if an image errors out.
 
-[![Circle CI](https://circleci.com/gh/zakangelle/fallback-image/tree/master.svg?style=shield)](https://circleci.com/gh/zakangelle/fallback-image/tree/master)
+[![Circle CI](https://circleci.com/gh/zakangelle/fallback-image/tree/master.svg?style=shield)](https://circleci.com/gh/zakangelle/fallback-image/tree/master) [![Coverage Status](https://img.shields.io/coveralls/zakangelle/fallback-image.svg)](https://coveralls.io/github/zakangelle/fallback-image?branch=master)
 
 ## Installation
 
