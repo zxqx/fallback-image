@@ -29,8 +29,12 @@ $ npm run build:standalone
 
 ## Test
 
-Tests are done with [tape](https://github.com/substack/tape) by running:
+Run tests with [tape](https://github.com/substack/tape):
 
 ```
 $ npm test
 ```
+
+## License
+
+MIT
